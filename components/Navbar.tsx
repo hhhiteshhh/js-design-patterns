@@ -34,6 +34,11 @@ const patterns: Pattern[] = [
     path: "/observer-patterns",
     name: "Observer Patterns",
   },
+  {
+    id: 6,
+    path: "/proxy-patterns",
+    name: "Proxy Patterns",
+  },
 ];
 function Navbar() {
   const pathname = usePathname();
