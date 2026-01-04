@@ -3,7 +3,7 @@ import { useState } from "react";
 import Todos from "./Todos";
 
 const TodoList = () => {
-  const [store] = useState(new Todos());
+  const store = new Todos();
   const [todos, setTodos] = useState(store.getTodos());
   return (
     <div>
