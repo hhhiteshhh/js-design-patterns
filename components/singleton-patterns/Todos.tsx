@@ -4,7 +4,7 @@ export interface TodosStoreType {
 }
 
 const todos: string[] = [];
-let instance = null;
+// let instance = null;
 
 // class Todos {
 //   constructor() {
