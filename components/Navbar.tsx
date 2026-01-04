@@ -24,6 +24,11 @@ const patterns: Pattern[] = [
     path: "/factory-patterns",
     name: "Factory Patterns",
   },
+  {
+    id: 4,
+    path: "/prototype-patterns",
+    name: "Prototype Patterns",
+  },
 ];
 function Navbar() {
   const pathname = usePathname();
