@@ -29,12 +29,17 @@ const patterns: Pattern[] = [
     path: "/prototype-patterns",
     name: "Prototype Patterns",
   },
+  {
+    id: 5,
+    path: "/observer-patterns",
+    name: "Observer Patterns",
+  },
 ];
 function Navbar() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   return (
-    <div className="mt-4 flex gap-2">
+    <div className="mt-4 flex gap-2 flex-wrap">
       {!isHome && <BackButton />}
       {patterns.map((pattern) => (
         <LinkButton key={pattern.id} pattern={pattern} />
